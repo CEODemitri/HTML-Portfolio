@@ -49,28 +49,23 @@
     <hr>
 
     <div class="footer">
-      <div>
+      <form>
         <h3>Contact Me</h3>
         <p>I am always researching and growing. If you have any advice or constructive critiscm, please HMU @</p>
-      </div>
-      
-    </div>
-    <hr>
-    <section>
-      <h2>Pick Your Favorite Color</h2>
-        <form>
+        <fieldset>
+          <label>Pick your favorite Color</label>
           <input type="color" name="Pick A Color">
           <input type="submit" name="Submit">          
-        </form>
-    </section>
-
-    <fieldset id="yes">
-      <legend>Reason for Visit</legend>
-        <input id="self" type="radio" name="self-company"> Freelance
-        <input id="company" type="radio" name="self-company"> Career
+        </fieldset>
+        <div class="row"
+          <fieldset id="reason">
+            <legend>Reason for Visit</legend>
+            <input id="self" type="radio" name="self-company"> Freelance
+            <input id="company" type="radio" name="self-company"> Career
 <!--         One type of button -->
-        <button type="submit">Submit</button>
-    </fieldset>
+            <button type="submit">Submit</button>
+          </fieldset>
+        </div>
 
     <fieldset>
       <legend>My Projects</legend>
@@ -97,8 +92,8 @@
           <option value="astrology">Astrology</option>
           <option value="humanities">Humanities</option>
         </select>
-    </fieldset>
-  </form>
+        </div>
+         </form>
 </body>
 
 </html>
