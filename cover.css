@@ -18,3 +18,11 @@ body {
 #heading {
   text-align: center;
 }
+
+.name {
+  font-family: 'Lugrasimo', 'sans-serif';
+}
+
+h1 {
+  height: 1.3em;
+}
