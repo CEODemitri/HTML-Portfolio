@@ -13,15 +13,23 @@
 
 <body>
     <div class="heading">
+      <navbar>
+        <h1>DAE</h1>
+        <section>
+          <a href=".skills">Skills</a>
+          <a href=".projects">Projects</a>
+          <a href=".contact">Contact</a>
+        </section>
+      </navbar>
       <h1 class="name">Demitri Echols</h1>
-      <h3>Professional Developer</h3>
-      <h4>1yr - Web, Software</h4>
+      <h2>Professional Developer</h2>
+      <h3>1yr - Web, Software</h3>
       <h4>Self Instructed since 2019</h4>
       <p>Programming has become much more then a hobby for me; I am constantly learning new concpets and exploring many topics. This is a slight product of my works thus far. Thanks for visiting.</p>
     </div>
     <hr>
 
-    <div class="grid-container main">
+    <div class="skills grid-container main">
       <div class="grid-item">
         <h2 class="name">Skills</h2>
         <ul>
@@ -61,51 +69,8 @@
     <hr>
 
     <div class="footer">
-      <form>
-        <h3>Contact Me</h3>
-        <p>I am always researching and growing. If you have any advice or constructive critiscm, please HMU @</p>
-        <fieldset>
-          <label>Pick your favorite Color</label>
-          <input type="color" name="Pick A Color">
-          <input type="submit" name="Submit">          
-        </fieldset>
-        <div class="row"
-          <fieldset id="reason">
-            <legend>Reason for Visit</legend>
-            <input id="self" type="radio" name="self-company"> Freelance
-            <input id="company" type="radio" name="self-company"> Career
-<!--         One type of button -->
-            <button type="submit">Submit</button>
-          </fieldset>
-        </div>
-
-       <fieldset>
-         <legend>My Projects</legend>
-         <a>Here</a>
-         <a>There</a>
-         <a>Everywhere</a>        
-       </fieldset>
-
-       <fieldset>
-         <label>What brought you here</label>  
-          <input id="name" type="text"></input>
-          <label for="name">What is Your Name?</label>       
-        <input type="submit" value="submit"></input>
-<!--       Second type of button    -->
-       </fieldset>
-       <fieldset>
-         <label for="ustudy">Field Of Study</label>
-           <select name="ustudy" id="ustudy">
-             <option value="art">ART!</option>
-             <option value="science">Science</option>
-             <option value="tech">Tech</option>
-             <option value="astrology">Astrology</option>
-             <option value="humanities">Humanities</option>
-          </select>
-<!--        Let's try a button instead of input as right above -->
-         <button type="submit" for="ustudy" value="submit">Submit</button>
-        </fieldset>
-       </form>
+      <section class="projects"></section>
+      <section class="contact"></section>
     </div>
 </body>
 
