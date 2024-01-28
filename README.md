@@ -1,8 +1,8 @@
 # All About Structure 🤓🔰
-` <div>Welcome to my Legendary HTML Site. Plain Jain as I can be</div> `
+` <h1>Welcome to my Legendary HTML Site. Plain Jain as I can be.</h1> `
 
 ## Slowly Updating. 
-One of my favorite/first sites I Have built. Alt, nur very much alive. Very little CSS ( I am an artist first so that was extremely tough to ignore ). Build a cool HTML only site. 
+One of my favorite/first sites I Have built. Alt, but very much alive. Very little CSS ( I am an artist first so that was extremely tough to ignore ). 
 
 ### Goal 
 1. can the style attribute be used without breaking no CSS rules?
